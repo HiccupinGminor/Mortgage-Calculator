@@ -1,5 +1,9 @@
 <?php namespace calculator;
 
+/**
+ * A mortgage calculator class
+ * @author Chris Chung hiccupingminor@gmail.com
+ */
 class Calculator{
 	
 	/**
