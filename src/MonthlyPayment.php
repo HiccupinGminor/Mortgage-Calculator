@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Calculates the amount of a monthly payment
- * @return float
- */
 class MonthlyPayment implements CalculatorOperationsInterface{
 
 	public function evaluate($principal, $rate, $months, $io){
