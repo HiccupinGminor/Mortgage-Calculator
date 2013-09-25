@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Calculates the total interest cost of a mortgage over its entire duration
+ */
 class TotalInterest implements CalculatorOperationsInterface {
 	protected $totalCost;
 	public function __construct(TotalCost $totalCost){

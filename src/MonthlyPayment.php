@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Calculates a monthly payment for a mortgage
+ */
 class MonthlyPayment implements CalculatorOperationsInterface{
 
 	public function evaluate($principal, $rate, $months, $io){
